@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unordered and Ordered Lists</title>
+</head>
+<body>
+    <h1>List Practice</h1>
+    <!-- Unordered lists are created using the <ul> element, and each item within
+        the list is created using the list element <li> -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Ordered lists are created using the <ol> element, and each item within
+        the list is created using the list element <li> -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- Nesting a list in a list -->
+    <h2>Nesting Lists in a List</h2>
+    <ul>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- Look, the closing </li> tag is not placed here! -->
+          <ul>
+            <li>second item first subitem</li>
+            <li>
+              second item second subitem
+              <!-- Same for the second nested unordered list! -->
+              <ul>
+                <li>second item second subitem first sub-subitem</li>
+                <li>second item second subitem second sub-subitem</li>
+                <li>second item second subitem third sub-subitem</li>
+              </ul>
+            </li>
+            <!-- Closing </li> tag for the li that
+                        contains the third unordered list -->
+            <li>second item third subitem</li>
+          </ul>
+          <!-- Here is the closing </li> tag -->
+        </li>
+        <li>third item</li>
+    </ul>
+</body>
+</html>
