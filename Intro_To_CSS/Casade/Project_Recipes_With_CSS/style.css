@@ -1,9 +1,8 @@
 body{
     background-color: slategray;
-    opacity: .99;
 }
 
-.Chef_image, .button_collection , h1{
+.image, .recipe_buttons , h1{
     text-align: center;
 }
 h1{
@@ -20,5 +19,24 @@ img{
     font-size: 25px;
     border-radius: 12px;
     background-color: gray;
+    color: white;
     
+}
+
+h2{
+    background-color: gray;
+    color: white;
+    border-radius: 12px;
+    display: inline;
+    padding: 10px;
+
+}
+
+/* centering for all the lists in recipes */
+#lists{
+    text-align: center;
+}
+
+#lists ul, ol {
+    list-style-position: inside;
 }
