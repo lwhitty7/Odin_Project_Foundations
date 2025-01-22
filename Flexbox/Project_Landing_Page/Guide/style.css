@@ -101,11 +101,6 @@ button {
     margin-bottom: 50px;
 }
 
-/* .usp-item {
-    max-width: 18px;
-    display: flex
-} */
- 
 .usp {
     display: flex;
     justify-content: space-between;
