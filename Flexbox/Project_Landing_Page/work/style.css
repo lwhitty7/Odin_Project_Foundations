@@ -119,3 +119,31 @@ button {
     margin-top: 10px;
     max-width: 180px;
 }
+
+.quote_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote{
+    max-width: 840px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.quote_section{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote_author{
+    display: flex;
+    justify-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
