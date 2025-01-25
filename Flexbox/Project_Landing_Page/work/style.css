@@ -147,3 +147,51 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.call_to_action_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 100px auto;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.CTA_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.CTA_header{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.CTA_subtext{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+button.CTA_button{
+    margin-right: 75px;
+    border: 2px solid white;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.footer_text{
+    color:#F9FAF8
+}
