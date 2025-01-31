@@ -1,1 +1,2 @@
 // rah!
+alert("hello");
