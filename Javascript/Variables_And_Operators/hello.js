@@ -1,2 +1,3 @@
 // rah!
-alert("hello");
+console.log("hello");
+
