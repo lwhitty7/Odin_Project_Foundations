@@ -5,7 +5,3 @@ let y = "hello";
 
 let a = x + y;
 let b = y+x;
-
-console.log(a + "\n" + b)
-
-console.log("hi");
